@@ -1,0 +1,273 @@
+body {
+    background-color: #fff;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 30px 0 30px;
+    color: black;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    color: white;
+    border: 2px solid black;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #344E41;
+}
+
+footer {
+    border: 1px solid black;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #344E41;
+    color: #fff;
+}
+
+header p, footer p, .etna-linkabile h2 {
+    font-family: "Quicksand";
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+header ul, footer ul {
+    font-family: "Quicksand";
+    list-style: none;
+    display: flex;
+    gap: 30px;    
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+header a, footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.etna-linkabile a, .parchi-item-2 h2 {
+    color:black;
+    text-decoration: none;
+}
+
+.etna-linkabile a:hover, .parchi-item-2 h2:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.titolo-1 p, .parchi-titolo-1, .attività-titolo-1, .etna-titolo-1 {
+    font-family: "Fredericka The Great";
+    font-size: 60px;
+    text-align: center;
+}
+
+.testo-1 p, .testo-2 p, .parchi-testo-1 p, .parchi-testo-2 p, .attività-elenchi, .etna-testo-2 p, .etna-testo-3, .etna-testo-4, .etna-testo-5, .etna-testo-6 {
+    font-family: "Quicksand";
+    font-size: 18px;
+    padding: 0 0 50px 0;
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.attività-testo-2 {
+    margin-bottom: 50px;
+}
+
+.etna-testo-1 p {
+    font-family: "Quicksand";
+    font-size: 18px;
+    padding: 0 0 20px 0;
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.attività-testo-1 p, .attività-testo-2 p {
+    font-family: "Quicksand";
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+section.card, .parchi-card-2 {
+    max-width: 800px;
+}
+
+.grid, .parchi-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.grid .item img, .parchi-item-2 img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+}
+
+.grid .item img:hover, .parchi-item-2 img:hover {
+    transform: scale(1.05); 
+}
+
+.item h2, .parchi-item-2 h2 {
+    font-family: "Quicksand";
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+    height: 60px;            
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+}
+
+.titolo-2, .titolo-3, .parchi-titolo-2, .parchi-titolo-3, .attività-titolo-2, .etna-titolo-2, .etna-titolo-3, .etna-titolo-4, .etna-titolo-5 {
+    font-family: "Fredericka The Great";
+    font-size: 60px;
+    text-align: center;
+    border-style:solid;
+    border-color: black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+}
+
+.item-2 img, .etna-item-1 img{
+    height: auto;
+    width: 100%;
+    padding: 0 0 30px 0;
+}
+
+.etna-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.etna-item-2 img {
+    height: 150px;
+    width: 100%;
+    padding-bottom: 30px;
+    object-fit: cover;
+}
+
+.etna-item-2 img:hover {
+    transform: scale(1.7); 
+}
+
+.elenco-attività-1, .elenco-attività-2, .elenco-attività-3, .elenco-attività-4, .elenco-attività-5 {
+    margin-bottom: 50px;
+}
+
+.elenco-attività-1 p, .elenco-attività-2 p, .elenco-attività-3 p, .elenco-attività-4 p, .elenco-attività-5 p {
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-size: larger;
+    color:darkred;
+}
+
+.elenco-attività-1 a, .elenco-attività-2 a, .elenco-attività-3 a, .elenco-attività-4 a, .elenco-attività-5 a {
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.elenco-attività-1 a:hover, .elenco-attività-2 a:hover, .elenco-attività-3 a:hover, .elenco-attività-4 a:hover, .elenco-attività-5 a:hover {
+    text-decoration:underline;
+    color: black;
+}
+
+.elenco-attività-1 ul, .elenco-attività-2 ul, .elenco-attività-3 ul, .elenco-attività-4 ul, .elenco-attività-5 ul {
+    font-family: "Quicksand";
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0px 10px 0px 10px;
+  }
+
+  header, footer {
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header ul, footer ul {
+    flex-direction: row;
+    gap: 15px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  header p, footer p {
+    font-size: 13px;
+  }
+
+  .grid, .parchi-grid-2 {
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+
+  .etna-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  .titolo-1 p, .titolo-2, .titolo-3, .parchi-titolo-1, .parchi-titolo-2, .parchi-titolo-3, .attività-titolo-1, .attività-titolo-2, .etna-titolo-1, .etna-titolo-2, .etna-titolo-3, .etna-titolo-4, .etna-titolo-5 {
+    font-size: 28px; 
+  }
+
+  .testo-1 p, .testo-2 p, .parchi-testo-1 p, .parchi-testo-2 p, .etna-testo-1 p, .etna-testo-2 p, .attività-testo-1 p, .attività-testo-2 p {
+    font-size: 15px;
+    padding: 0 0 25px 0;
+  }
+
+  .item h2, .parchi-item-2 h2 {
+    font-size: 16px;
+    height: auto;
+    padding: 8px;
+  }
+
+  .elenco-attività-1 p, .elenco-attività-2 p, .elenco-attività-3 p, .elenco-attività-4 p, .elenco-attività-5 p {
+    font-size: 16px;
+  }
+
+  .elenco-attività-1 a, .elenco-attività-2 a, .elenco-attività-3 a, .elenco-attività-4 a, .elenco-attività-5 a {
+    font-size: 16px;
+  }
+
+  .etna-item-2 img {
+    height: auto;
+  }
+
+  .grid .item img:hover, .parchi-item-2 img:hover {
+    transform: none; 
+}
+
+.etna-item-2 img:hover {
+    transform: none; 
+}
+
+}
